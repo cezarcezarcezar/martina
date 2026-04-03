@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martina's Art Gallery</title>
+  <meta name="description" content="An immersive dark-mode gallery showcasing my impressionist masterpieces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Martina</span>
+      </a>
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <a href="#gallery" class="nav-link" id="nav-gallery">Gallery</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Princess Collection</p>
+      <h1 class="hero-title">The World Through<br /><em>Martina's Light</em></h1>
+      <p class="hero-subtitle">
+        Discover a curated selection of my masterpieces — where colour dissolves into feeling and every brushstroke
+        breathes with life.
+      </p>
+      <a href="#gallery" class="btn-primary" id="hero-cta">Explore the Collection</a>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-header">
+      <h2 class="section-title">The Collection</h2>
+      <p class="section-subtitle">My works capturing faces, light, and the world around me.</p>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar" id="filter-bar" role="group" aria-label="Gallery filters">
+      <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+      <button class="filter-btn" data-filter="drawings" id="filter-drawings">Drawings</button>
+      <button class="filter-btn" data-filter="photos" id="filter-photos">Photos</button>
+
+    </div>
+
+    <div class="gallery-grid" id="gallery-grid" role="list" aria-label="Artworks">
+      <!-- Cards injected by JS -->
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <p class="hero-eyebrow">About Martina</p>
+        <h2 class="section-title" style="text-align:left;">Light as a Medium</h2>
+        <p class="about-body">
+          Martina is a passionate student artist with an eye for the human form and the stories etched into every face
+          she encounters.
+        </p>
+        <p class="about-body">
+          By day, she fills her sketchbooks and canvases with expressive oil and watercolor portraits, capturing the
+          subtle interplay of light and shadow across her subjects' features with remarkable sensitivity. By night, she
+          wanders her campus and city streets with her camera in hand, documenting candid moments — a laughing stranger,
+          a contemplative elder, a child lost in play — always searching for the raw, unguarded emotion that a single
+          photograph can freeze in time. Her studio walls are a testament to her dual passions: bold, textured paintings
+          hang beside crisp black-and-white prints, each piece a different lens through which she explores what it means
+          to be human. For Martina, whether the medium is a brush or a shutter, every portrait is an act of connection —
+          a
+          quiet conversation between artist and subject that transcends words.
+        </p>
+      </div>
+      <div class="about-quote">
+        <blockquote id="rotating-quote">
+          <p class="quote-text">"Colour is my day-long obsession, joy and torment."</p>
+          <cite class="quote-cite">— Claude Monet</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="site-footer">
+    <p>© 2026 Martina's Art Gallery &nbsp;·&nbsp; All rights reserved.</p>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close artwork viewer">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous artwork">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next artwork">›</button>
+    <div class="lightbox-inner" id="lightbox-inner">
+      <div class="lightbox-image-wrap">
+        <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      </div>
+      <div class="lightbox-info" id="lightbox-info">
+        <p class="lightbox-tag" id="lightbox-tag"></p>
+        <h2 class="lightbox-title" id="lightbox-title"></h2>
+        <p class="lightbox-desc" id="lightbox-desc"></p>
+        <p class="lightbox-meta" id="lightbox-meta"></p>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox-overlay" id="lightbox-overlay" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
