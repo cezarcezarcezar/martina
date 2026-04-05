@@ -61,6 +61,39 @@ const ARTWORKS = [
     description:
       'Why buy supplies when the forest has everything you need? This mixed-media collage is built entirely from real dried autumn leaves — burgundy, amber, gold — plus cotton wool, paint, and a sprinkling of iridescent glitter at the border. It depicts a misty forest arch opening onto a lily pond, and it is genuinely stunning that it was made from things found on the ground.',
   },
+  {
+    id: 'anna',
+    title: 'Anna Dress',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/Anna.jpg',
+    alt: 'Anna Dress on starry background',
+    description:
+      'From the "Autobiography: The girl from the past" series. Do you want to build a snowman? Or maybe just reign over an entire cosmic kingdom? This magical Anna inspired dress floats through a starry, intergalactic dreamscape. It’s a whimsical nod to childhood fantasies where deep blue skies, floral embroidery, and frosty adventures collide.',
+  },
+  {
+    id: 'belle',
+    title: 'Belle Dress',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/Belle.jpg',
+    alt: 'Belle Dress on golden background',
+    description:
+      'From the "Autobiography: The girl from the past" series. Tale as old as time, but make it absolutely glowing. This spectacular golden-yellow Belle ballgown brings all the enchanted castle vibes. Nestled against a chaotic, paint-splattered amber backdrop, it’s a tribute to the days of wanting nothing more than a giant library and a dress that twirls perfectly.',
+  },
+  {
+    id: 'rapunzel',
+    title: 'Rapunzel Dress',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/Rapunzel.jpg',
+    alt: 'Rapunzel Dress on pink background',
+    description:
+      'From the "Autobiography: The girl from the past" series. Best day ever! Floating lanterns have nothing on this electric pink and magenta dreamworld. This Rapunzel inspired purple gown, complete with laced bodice and ribbon sleeves, screams early-2000s childhood nostalgia. A vibrant trip back to the days of dreaming big, singing loudly, and demanding to see the floating lights.',
+  },
 ];
 
 // ── Utility: debounce ───────────────────────────────────────
