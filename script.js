@@ -94,6 +94,72 @@ const ARTWORKS = [
     description:
       'From the "Autobiography: The girl from the past" series. Best day ever! Floating lanterns have nothing on this electric pink and magenta dreamworld. This Rapunzel inspired purple gown, complete with laced bodice and ribbon sleeves, screams early-2000s childhood nostalgia. A vibrant trip back to the days of dreaming big, singing loudly, and demanding to see the floating lights.',
   },
+  {
+    id: 'headphones_bw',
+    title: 'Lost in the Sound',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0374 - M.png',
+    alt: 'High-contrast black and white portrait wearing headphones and AC/DC t-shirt',
+    description:
+      'A striking, high-contrast monochrome portrait capturing a quiet moment immersed in music. Framed by over-ear headphones, hoop earrings, and an iconic AC/DC graphic tee, the dramatic lighting accentuates feeling over form.',
+  },
+  {
+    id: 'sunburst_serenade',
+    title: 'Sunburst Serenade',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0432 - M.png',
+    alt: 'Low-angle golden hour portrait with lens flare',
+    description:
+      'Bathed in warm golden sunlight from a low angle, this candid photo pairs vivid sun flare with deep moody shadows and rock-and-roll energy.',
+  },
+  {
+    id: 'chiaroscuro_profile',
+    title: 'Chiaroscuro Profile',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0458 - M.png',
+    alt: 'Dramatic profile portrait in low light with silver heart necklace',
+    description:
+      'A quiet study in shadows and light. A sharp beam of ambient light highlights the contours of the face and a silver heart pendant against an atmospheric dark background.',
+  },
+  {
+    id: 'electric_cyan',
+    title: 'Electric Cyan',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0469 - M.png',
+    alt: 'High-contrast cyanotype styled portrait looking upwards',
+    description:
+      'An experimental cyan-hued double-exposure composition, transforming a moment of gazing upward into a surreal, electric blue dreamscape.',
+  },
+  {
+    id: 'city_sunset',
+    title: 'City Sunset Flare',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0568 - M.png',
+    alt: 'Profile portrait against skyscraper windows with sunset flare',
+    description:
+      'Golden hour light pouring through high-rise city windows, haloing a serene profile in warm amber rays.',
+  },
+  {
+    id: 'soundtrack_solitude',
+    title: 'Soundtrack to Solitude',
+    year: '2026',
+    category: 'photos',
+    tag: 'Photos',
+    src: 'images/photos/IMG_0583 - M.png',
+    alt: 'Monochrome still life of bag, badges, headphones and phone playing music',
+    description:
+      'A textured black-and-white still life of everyday companion objects — a pinned canvas bag, plush headphones, and a glowing phone screen playing "Koi No Yokan".',
+  },
 ];
 
 // ── Utility: debounce ───────────────────────────────────────
